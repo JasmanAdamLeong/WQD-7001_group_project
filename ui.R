@@ -1,6 +1,15 @@
+library(shinycustomloader)
+library(plotly)
 library(shiny)
+library(shinythemes)
+library(shinyWidgets)
 library(dplyr)
+library(shiny)
 library(googlesheets4)
+library(ggplot2)
+library(gghighlight)
+library(reshape2)
+library(tidyr)
 
 
 #Calling from google sheets with data and proper authentication
