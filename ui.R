@@ -28,7 +28,7 @@ job_data$Employed <- unlist(job_data$Employed)
 # Define UI for application that asks for year and state and spits out employment based on industry at specified year and state
 shinyUI(fluidPage(
     theme = shinytheme("flatly"),
-    titlePanel("Malaysia's Most Desirable Jobs"),
+    titlePanel("Job Sniffer"),
     hr(),
     tabsetPanel(
       id = 'tab',
